@@ -3,7 +3,7 @@
 
 # 👋 ¡Hola, soy EXXO!
 
-💻 **Estudiante de informática** explorando el mundo del desarrollo.  
+💻 **Estudiante de 2GM informática** explorando el mundo del desarrollo.  
 🚀 Apasionado por aprender y crear nuevas ideas.  
 ✨ Motivado por la curiosidad y el crecimiento constante.
 
