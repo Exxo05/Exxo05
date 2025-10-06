@@ -3,13 +3,13 @@
 
 # 👋 ¡Hola, soy EXXO!
 
-💻 **Estudiante de 2GM informática** explorando el mundo del desarrollo.  
+💻 **Estudiante de 1GS DAM** explorando el mundo del desarrollo y el Cloud.  
 🚀 Apasionado por aprender y crear nuevas ideas.  
 ✨ Motivado por la curiosidad y el crecimiento constante.
 
 ## 🌟 Tecnologías que estoy aprendiendo:
-- 💡 **Desarrollo web:** HTML, CSS, JavaScript  
-- 🛠️ **Sistemas:** Linux, Windows Server  
+- 💡 **Desarrollo web y programacion:** JavaScript, Python, Java  
+- 🛠️ **Sistemas:** Linux, Windows Server, Bases de Datos 
 - 📚 Siempre abierto a aprender algo nuevo.
 
 ## 🎨 Un poco de mí: 
