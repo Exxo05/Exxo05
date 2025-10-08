@@ -1,4 +1,5 @@
 ![Driving GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanhvNHVtcXY2MmFtbGc4ODF4bGRlenVsNmNld3FwcmEyZHBvdnBiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mlBDoVLOGidEc/giphy.gif)
+![Foto](https://www.vhv.rs/dpng/d/181-1815118_cyberpunk-2077-arasaka-logo-hd-png-download.png)
 
 
 # 👋 ¡Hola, soy EXXO!
