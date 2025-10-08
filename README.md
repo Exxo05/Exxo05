@@ -1,5 +1,4 @@
-![Driving GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanhvNHVtcXY2MmFtbGc4ODF4bGRlenVsNmNld3FwcmEyZHBvdnBiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mlBDoVLOGidEc/giphy.gif)
-![Foto](https://www.vhv.rs/dpng/d/181-1815118_cyberpunk-2077-arasaka-logo-hd-png-download.png)
+![Driving GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanhvNHVtcXY2MmFtbGc4ODF4bGRlenVsNmNld3FwcmEyZHBvdnBiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mlBDoVLOGidEc/giphy.gif) 
 
 
 # 👋 ¡Hola, soy EXXO!
@@ -22,3 +21,7 @@
 - 🚗 **Coches**
 
 ¡La creatividad es la mejor herramienta para crecer! 🚀
+<br> <a href="https://static.wikia.nocookie.net/aperture-future-media/images/a/a0/Arasakalogo.png/revision/latest?cb=20250312220121">
+  <img src="https://static.wikia.nocookie.net/aperture-future-media/images/a/a0/Arasakalogo.png/revision/latest?cb=20250312220121" alt="Logo Arasaka" width="350"/>
+</a>
+
