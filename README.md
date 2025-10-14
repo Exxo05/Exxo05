@@ -21,7 +21,5 @@
 - 🚗 **Coches**
 
 ¡La creatividad es la mejor herramienta para crecer! 🚀
-<br> <a href="https://static.wikia.nocookie.net/aperture-future-media/images/a/a0/Arasakalogo.png/revision/latest?cb=20250312220121">
-  <img src="https://static.wikia.nocookie.net/aperture-future-media/images/a/a0/Arasakalogo.png/revision/latest?cb=20250312220121" alt="Logo Arasaka" width="350"/>
-</a>
+
 
