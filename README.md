@@ -11,7 +11,8 @@
 - 💡 **Desarrollo web y programacion:** JavaScript, Python, Java  
 - 🛠️ **Sistemas:** Linux, Windows Server, Bases de Datos 
 - 📚 Siempre abierto a aprender algo nuevo.
-
+  
+[![My Skills](https://skillicons.dev/icons?i=java,py,aws,gcp,docker,github,idea,linux,vscode,wordpress)](https://skillicons.dev)
 ## 🎨 Un poco de mí: 
 - ⚙️ **Tecnología**
 - 📸 **Fotografía** 
