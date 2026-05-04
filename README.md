@@ -8,16 +8,13 @@
   <img src="assets/header-exxo.svg" alt="EXXO header" width="100%" />
 </p>
 
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2400&pause=900&color=FFFFFF&center=true&vCenter=true&width=930&lines=%5B+EXXO+%2F%2F+CYBER_INTERFACE+%5D;%3E+Estudiante+de+1%C2%BA+GS+DAM;%3E+Explorando+Desarrollo+%2B+Cloud;%3E+Curiosidad%3A+ONLINE+%7C+Mejora%3A+CONSTANTE"
-    alt="Typing HUD"
-  />
 
   <img src="https://img.shields.io/badge/STATUS-ACTIVE-000000?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Status" />
   <img src="https://img.shields.io/badge/TRACK-DEV%20%2B%20CLOUD-000000?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Track" />
   <img src="https://img.shields.io/badge/MINDSET-CURIOSIDAD%20%26%20CRECIMIENTO-000000?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Mindset" />
 
-  <br/><br/>
+  <br/>
+  <br>
   
   <!-- OPCIÓN A: Mantener tu GIF original, pero pequeño para que no choque tanto -->
   
