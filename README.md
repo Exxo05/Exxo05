@@ -40,42 +40,9 @@
 
 </div>
 
-<div align="center">
+<p align="center">
+  <img src="assets/profile-hud.svg" alt="EXXO Profile HUD" width="900" />
+</p>
 
-<pre>
-┌────────────────────────────────────────────────────────────────────────────────────┐
-│  EXXO :: PROFILE HUD (MONO BUILD)                                                   │
-├────────────────────────────────────────────────────────────────────────────────────┤
-│  ACCESS ............. GRANTED                                                       │
-│  USER   ............. EXXO                                                          │
-│  ROLE   ............. Estudiante de 1º GS DAM                                        │
-│  VECTOR ............. Desarrollo + Cloud                                             │
-│                                                                                     │
-│  BIO                                                                                │
-│   • Explorando el mundo del desarrollo y el Cloud.                                  │
-│   • Apasionado por aprender y crear nuevas ideas.                                   │
-│   • Motivado por la curiosidad y el crecimiento constante.                          │
-│                                                                                     │
-│  LEARNING STACK                                                                     │
-│   [ DEV / PROGRAMACIÓN ]                                                            │
-│     - JavaScript                                                                    │
-│     - Python                                                                        │
-│     - Java                                                                          │
-│                                                                                     │
-│   [ SISTEMAS ]                                                                      │
-│     - Linux                                                                         │
-│     - Windows Server                                                                │
-│     - Bases de Datos                                                                │
-│                                                                                     │
-│  INTERESES                                                                          │
-│     ⚙️ Tecnología · 📸 Fotografía · 🎬 Edición de vídeo · 🍿 Películas             │
-│     🎮 Videojuegos · 🚗 Coches                                                      │
-│                                                                                     │
-│  OUTPUT                                                                             │
-│   "La creatividad es la mejor herramienta para crecer!"  🚀                         │
-└────────────────────────────────────────────────────────────────────────────────────┘
-</pre>
-
-</div>
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ END OF FILE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
