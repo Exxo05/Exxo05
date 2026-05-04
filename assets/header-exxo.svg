@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="EXXO monogram header">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a0d12"/>
+      <stop offset="1" stop-color="#080b10"/>
+    </linearGradient>
+    <style>
+      text { font-family: ui-monospace, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg3)"/>
+
+  <!-- Monogram -->
+  <g transform="translate(120 60)" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="6">
+    <!-- E -->
+    <path d="M0 0 H110 M0 60 H90 M0 120 H110 M0 0 V120"/>
+    <!-- X -->
+    <path d="M170 0 L260 120 M260 0 L170 120"/>
+  </g>
+
+  <!-- EXXO text -->
+  <text x="430" y="120" font-size="64" fill="#ffffff" opacity="0.95" letter-spacing="10">EXXO</text>
+  <text x="430" y="160" font-size="18" fill="#e6edf3" opacity="0.85">
+    dev + cloud // gs dam // progreso constante
+  </text>
+
+  <rect x="430" y="182" width="640" height="2" fill="#ffffff" opacity="0.18"/>
+  <text x="1070" y="208" text-anchor="end" font-size="14" fill="#ffffff" opacity="0.55">v1.0 • mono build</text>
+</svg>
