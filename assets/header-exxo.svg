@@ -1,30 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="EXXO monogram header">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="EXXO header monogram animated">
   <defs>
-    <linearGradient id="bg3" x1="0" x2="1">
-      <stop offset="0" stop-color="#0a0d12"/>
-      <stop offset="1" stop-color="#080b10"/>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#070a0f"/>
     </linearGradient>
+
+    <pattern id="microgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1" opacity="0.45"/>
+    </pattern>
+
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 1
+                0 1 0 0 1
+                0 0 1 0 1
+                0 0 0 0.28 0" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- máscara “typing” (revela de izquierda a derecha) -->
+    <mask id="typeMask1">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" values="0;720" dur="1.6s" begin="0s;7.2s" fill="freeze"/>
+      </rect>
+    </mask>
+    <mask id="typeMask2">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" values="0;720" dur="1.6s" begin="2.4s;9.6s" fill="freeze"/>
+      </rect>
+    </mask>
+    <mask id="typeMask3">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" values="0;720" dur="1.6s" begin="4.8s;12s" fill="freeze"/>
+      </rect>
+    </mask>
+
     <style>
-      text { font-family: ui-monospace, Menlo, Consolas, monospace; }
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     </style>
   </defs>
 
-  <rect width="1200" height="260" fill="url(#bg3)"/>
+  <!-- Background panel -->
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#microgrid)" opacity="0.35"/>
 
-  <!-- Monogram -->
-  <g transform="translate(120 60)" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="6">
+  <!-- Frame -->
+  <rect x="22" y="22" width="1156" height="216" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M22 86H1178" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+
+  <!-- Monogram (EX) -->
+  <g transform="translate(86 78)" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" opacity="0.92" filter="url(#glow)">
     <!-- E -->
-    <path d="M0 0 H110 M0 60 H90 M0 120 H110 M0 0 V120"/>
+    <path d="M0 0H120 M0 44H92 M0 88H120 M0 0V88"/>
     <!-- X -->
-    <path d="M170 0 L260 120 M260 0 L170 120"/>
+    <path d="M170 0L255 88 M255 0L170 88"/>
+    <path d="M212 0V18 M212 70V88" opacity="0.55"/>
   </g>
 
-  <!-- EXXO text -->
-  <text x="430" y="120" font-size="64" fill="#ffffff" opacity="0.95" letter-spacing="10">EXXO</text>
-  <text x="430" y="160" font-size="18" fill="#e6edf3" opacity="0.85">
-    dev + cloud // gs dam // progreso constante
-  </text>
+  <!-- Main title -->
+  <text x="410" y="140" font-size="64" fill="#ffffff" opacity="0.95" letter-spacing="10" filter="url(#glow)">EXXO</text>
 
-  <rect x="430" y="182" width="640" height="2" fill="#ffffff" opacity="0.18"/>
-  <text x="1070" y="208" text-anchor="end" font-size="14" fill="#ffffff" opacity="0.55">v1.0 • mono build</text>
+  <!-- Animated tagline area (mismo look HUD, no “calcado”) -->
+  <g transform="translate(410 158)">
+    <!-- Línea 1 -->
+    <g mask="url(#typeMask1)">
+      <text x="0" y="20" font-size="16" fill="#e6edf3" opacity="0.88">
+        &gt; GS DAM // dev + cloud // build mode: ON
+      </text>
+    </g>
+    <rect x="0" y="26" width="720" height="2" fill="#ffffff" opacity="0.10"/>
+
+    <!-- Línea 2 -->
+    <g mask="url(#typeMask2)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="7.2s" begin="0s" repeatCount="indefinite"/>
+      <text x="0" y="20" font-size="16" fill="#e6edf3" opacity="0.88">
+        &gt; Java · Python · JS // learning every day
+      </text>
+    </g>
+
+    <!-- Línea 3 -->
+    <g mask="url(#typeMask3)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="7.2s" begin="0s" repeatCount="indefinite"/>
+      <text x="0" y="20" font-size="16" fill="#e6edf3" opacity="0.88">
+        &gt; objetivos: constancia | proyectos | mejora continua
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom line -->
+  <rect x="410" y="195" width="720" height="2" fill="#ffffff" opacity="0.14"/>
+
+  <!-- Small status -->
+  <text x="1130" y="62" text-anchor="end" font-size="13" fill="#ffffff" opacity="0.55">MONO BUILD • ACTIVE</text>
 </svg>
