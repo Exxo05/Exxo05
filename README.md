@@ -4,14 +4,9 @@
 
   
   <!-- TÍTULO CHULO -->
-  <pre>
-███████╗██╗  ██╗██╗  ██╗ ██████╗
-██╔════╝╚██╗██╔╝╚██╗██╔╝██╔═══██╗
-█████╗   ╚███╔╝  ╚███╔╝ ██║   ██║
-██╔══╝   ██╔██╗  ██╔██╗ ██║   ██║
-███████╗██╔╝ ██╗██╔╝ ██╗╚██████╔╝
-╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
-  </pre>
+  <p align="center">
+  <img src="assets/header-exxo.svg" alt="EXXO header" width="100%" />
+</p>
 
   <img
     src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2400&pause=900&color=FFFFFF&center=true&vCenter=true&width=930&lines=%5B+EXXO+%2F%2F+CYBER_INTERFACE+%5D;%3E+Estudiante+de+1%C2%BA+GS+DAM;%3E+Explorando+Desarrollo+%2B+Cloud;%3E+Curiosidad%3A+ONLINE+%7C+Mejora%3A+CONSTANTE"
